@@ -7,4 +7,5 @@ import 'bloc_observer.dart';
 void main() {
   Bloc.observer = MyBlocObserver();
   runApp(const TodoApp());
+  // runApp(const TodoApp());
 }
